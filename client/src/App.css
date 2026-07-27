@@ -1,0 +1,203 @@
+/* ===========================
+   GLOBAL
+=========================== */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #F8F4EE;
+  color: #2F2F2F;
+  overflow-x: hidden;
+}
+
+/* ===========================
+   NAVBAR
+=========================== */
+
+.navbar{
+    width:100%;
+    position:fixed;
+    top:0;
+    left:0;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:20px 9%;
+
+    background:rgba(248,244,238,.80);
+    backdrop-filter:blur(18px);
+
+    z-index:999;
+}
+
+.logo{
+    font-family:"Playfair Display",serif;
+    font-size:32px;
+    letter-spacing:2px;
+}
+
+.navbar ul{
+    display:flex;
+    list-style:none;
+    gap:40px;
+}
+
+.navbar li{
+    cursor:pointer;
+    font-weight:500;
+    transition:.3s;
+}
+
+.navbar li:hover{
+    color:#8C6A5D;
+}
+
+.nav-btn{
+    padding:13px 28px;
+    border:none;
+    border-radius:30px;
+
+    background:#8C6A5D;
+    color:white;
+
+    cursor:pointer;
+    transition:.3s;
+}
+
+.nav-btn:hover{
+    transform:translateY(-3px);
+}
+
+/* ===========================
+   HERO
+=========================== */
+
+.hero{
+
+    min-height:100vh;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+
+    padding:120px 20px 60px;
+}
+
+.hero h1{
+
+    font-size:85px;
+
+    font-family:"Playfair Display",serif;
+
+    margin-bottom:18px;
+}
+
+.hero h3{
+
+    color:#8C6A5D;
+
+    font-size:30px;
+
+    margin-bottom:25px;
+}
+
+.hero p{
+
+    max-width:700px;
+
+    font-size:22px;
+
+    line-height:1.8;
+
+    margin-bottom:45px;
+}
+
+.buttons{
+
+    display:flex;
+
+    gap:20px;
+}
+
+.buttons button{
+
+    padding:16px 36px;
+
+    border:none;
+
+    border-radius:40px;
+
+    background:#8C6A5D;
+
+    color:white;
+
+    cursor:pointer;
+
+    font-size:17px;
+
+    transition:.3s;
+}
+
+.buttons button:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 12px 25px rgba(0,0,0,.15);
+}
+
+/* ===========================
+   FEATURED LETTER
+=========================== */
+
+.featured{
+
+    padding:120px 10%;
+
+    text-align:center;
+}
+
+.featured h2{
+
+    font-size:42px;
+
+    margin-bottom:50px;
+
+    font-family:"Playfair Display",serif;
+}
+
+.letter-card{
+
+    max-width:700px;
+
+    margin:auto;
+
+    background:white;
+
+    padding:60px;
+
+    border-radius:18px;
+
+    box-shadow:0 20px 60px rgba(0,0,0,.08);
+
+    text-align:left;
+
+    font-family:"Caveat",cursive;
+
+    font-size:30px;
+
+    line-height:1.7;
+
+    transition:.35s;
+}
+
+.letter-card:hover{
+
+    transform:translateY(-8px);
+}

@@ -1,0 +1,31 @@
+.stats{
+
+display:grid;
+
+grid-template-columns:repeat(3,1fr);
+
+padding:100px 10%;
+
+text-align:center;
+
+gap:40px;
+
+}
+
+.stats h2{
+
+font-size:56px;
+
+font-family:"Playfair Display",serif;
+
+color:#8C6A5D;
+
+}
+
+.stats p{
+
+margin-top:12px;
+
+color:#666;
+
+}

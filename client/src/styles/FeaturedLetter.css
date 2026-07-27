@@ -1,0 +1,81 @@
+.featured{
+
+padding:120px 10%;
+
+text-align:center;
+
+}
+
+.featured h2{
+
+font-family:"Playfair Display",serif;
+
+font-size:42px;
+
+margin-bottom:60px;
+
+}
+
+.paper{
+
+background:#FFFDF9;
+
+max-width:760px;
+
+margin:auto;
+
+padding:70px;
+
+border-radius:24px;
+
+box-shadow:0 20px 60px rgba(0,0,0,.08);
+
+position:relative;
+
+transition:.35s;
+
+}
+
+.paper:hover{
+
+transform:translateY(-8px);
+
+}
+
+.paper::before{
+
+content:"";
+
+position:absolute;
+
+top:0;
+
+right:0;
+
+border-width:0 35px 35px 0;
+
+border-style:solid;
+
+border-color:transparent #EFE7DB;
+
+}
+
+.letter{
+
+font-family:"Caveat",cursive;
+
+font-size:32px;
+
+line-height:1.8;
+
+text-align:left;
+
+}
+
+.letter span{
+
+font-size:28px;
+
+color:#8C6A5D;
+
+}
