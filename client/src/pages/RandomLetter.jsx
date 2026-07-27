@@ -7,7 +7,7 @@ function RandomLetter() {
   const fetchRandomLetter = async () => {
     try {
       const response = await fetch(
-        "http://localhost:5500/api/letters/random"
+        `${import.meta.env.VITE_API_URL}/api/letters/random`
       );
 
       const data = await response.json();
