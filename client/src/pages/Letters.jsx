@@ -14,7 +14,7 @@ function Letters() {
 
   const fetchLetters = async () => {
     try {
-      const response = await fetch("http://localhost:5500/api/letters");
+      const response = await fetch(`${import.meta.env.VITE_API_URL}/api/letters`);
       const data = await response.json();
 
       setLetters(data);
@@ -30,7 +30,7 @@ function Letters() {
   }
   const handleLike = async (id) => {
   try {
-    await fetch(`http://localhost:5500/api/letters/${id}/like`, {
+    await fetch(`${import.meta.env.VITE_API_URL}/api/letters/${id}/like`, {
       method: "PUT",
     });
 
